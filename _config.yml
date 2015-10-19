@@ -75,7 +75,7 @@ admin:
     name: taylorjoy
     password: peace
     secret: you know it
-    cors: https://gentle-eyrie-9425.herokuapp.com/admin
+    cors: https://gentle-eyrie-9425.herokuapp.com/
 
 # Deploy
 deploy:

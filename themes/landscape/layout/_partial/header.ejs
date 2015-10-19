@@ -1,0 +1,41 @@
+<header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+    
+      <% if (theme.subtitle){ %>
+        <h2 id="subtitle-wrap">
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+        </h2>
+      <% } %>
+    </div>
+    <div id="header-inner" class="inner">
+
+ 
+    
+    </div>
+  </div>
+
+<nav class="navbar navbar-default nav-justified" role="navigation">
+<div class="container-fluid">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   <ul class="nav nav-pills nav-justified">
+  <li role="presentation" ><a href="/">Home</a></li>
+  <li role="presentation"><a href="/archives">Posts</a></li>
+    <li role="presentation"><a href="/about">About</a></li>
+    </ul>
+  </div>
+    
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    
+</div>
+
+
+</header>

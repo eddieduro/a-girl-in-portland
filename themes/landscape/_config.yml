@@ -20,11 +20,10 @@ widgets:
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: 
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
 
 
-  

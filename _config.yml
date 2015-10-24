@@ -77,8 +77,15 @@ admin:
     secret: you know it
   
 
+
 # Deploy
 deploy:
   type: heroku
   repo: https://git.heroku.com/gentle-eyrie-9425.git
   message: 
+
+
+
+
+
+

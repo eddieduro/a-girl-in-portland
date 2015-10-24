@@ -11,19 +11,25 @@
 .article-date
   @extend $block-caption
   float: left
+  margin-top: 1em
+
 
 .article-category
+  display: none
   float: left
-  line-height: 1em
+  line-height: 1.5em
   color: #ccc
   text-shadow: 0 1px #fff
   margin-left: 8px
   &:before
     content: "\2022"
 
+
+
 .article-category-link
   @extend $block-caption
   margin: 0 12px 1em
+  display: none
 
 .article-header
   padding: article-padding article-padding 0
@@ -37,7 +43,11 @@
   line-height: line-height-title
   transition: color 0.2s
   a&:hover
-    color: color-link
+    color: lightgrey
+
+.article-date
+  a&:hover
+    color: lightgrey
 
 .article-entry
   @extend $base-style
@@ -132,7 +142,7 @@
   text-shadow: 0 1px #fff
   text-decoration: none
   &:hover
-    background: color-link
+    background: lightgrey
     color: #fff
     text-decoration: none
     text-shadow: 0 1px darken(color-link, 20%)

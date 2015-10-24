@@ -144,4 +144,55 @@
   $('#bs-example-navbar-collapse-1').on('hide.bs.collapse', function() {
       $('.nav-pills').removeClass('nav-stacked');
   });
+
+// $('#nav').affix({
+//   offset: {
+//         top: $('banner').height()
+//       }
+// });
+
+// Page Scroll
+jQuery(document).ready(function ($) {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+      || location.hostname == this.hostname) {
+
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 32
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+// Fixed Nav
+jQuery(document).ready(function ($) {
+  $(window).scroll(function(){
+    var scrollTop = 350;
+    if($(window).scrollTop() >= scrollTop){
+      $('nav').css({
+        position : 'fixed',
+        top : '0',
+        opacity : 0.9
+      });
+    }
+    if($(window).scrollTop() < scrollTop){
+      $('nav').removeAttr('style'); 
+    }
+  });
+}); 
+
+
+// Hide and Show social icons on click
+$("#follow").click(function(){
+  $("#social-media").toggle("slide");
+});
+
+
+
 })(jQuery);
+

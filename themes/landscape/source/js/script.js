@@ -186,11 +186,13 @@ jQuery(document).ready(function ($) {
   });
 }); 
 
-
 // Hide and Show social icons on click
+
 $("#follow").click(function(){
   $("#social-media").toggle("slide");
 });
+
+// sidebar menu
 
 
 

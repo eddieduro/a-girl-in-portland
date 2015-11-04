@@ -1,7 +1,6 @@
 {
-  "name": "A-Girl-in-Portland",
+  "name": "a-girl-in-portland",
   "version": "0.0.0",
-  "private": true,
   "hexo": {
     "version": "3.1.1"
   },

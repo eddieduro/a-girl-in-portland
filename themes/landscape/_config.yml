@@ -1,0 +1,29 @@
+# Header
+menu:
+  Home: /
+  Posts: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
+
+# Miscellaneous
+google_analytics:
+favicon: data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAc/8AGRnPAPLWGwDPuakAuHVCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIkISIiIiIiIiQhIiIiIiIiJCEiIiIiQiIkIiIiIiIkIiQiIiIiIiJCJCJCIiIiIiIkJCIiIiIiIiRCIiIkJERERERCMjIiIiIBIiIiIiIiIgIiIiIiIiIiAiIiIiIiIiICIiQiIiIiIgIiIkIiIiIiAiIiJCIiIiICIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+

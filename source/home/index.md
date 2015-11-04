@@ -1,0 +1,2 @@
+title: home
+layout: false
